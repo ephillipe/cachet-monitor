@@ -34,6 +34,7 @@ Configuration
 {
   "api_url": "https://demo.cachethq.io/api/v1",
   "api_token": "9yMHsdioQosnyVK4iCVR",
+  "interval": 60,
   "monitors": [
     {
       "name": "nodegear frontend",
@@ -58,6 +59,7 @@ Configuration
 - `component_id` is optional
 - `threshold` is a percentage
 - `expected_status_code` is a http response code
+- `interval` is a seconds interval to execute monitors
 - GET request will be performed on the `url`
 
 How to run
