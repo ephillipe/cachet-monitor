@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/castawaylabs/cachet-monitor/system"
+	"github.com/ephillipe/cachet-monitor/system"
 	"io"
 	"io/ioutil"
 	"log"
