@@ -20,7 +20,7 @@ func main() {
 
 	log.Println()
 
-	ticker := time.NewTicker(time.Second)
+	ticker := time.NewTicker(time.Duration(config.Interval)*time.Second)
 	for range ticker.C {
 		for _, mon := range config.Monitors {
 			go mon.Run()
